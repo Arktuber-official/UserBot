@@ -86,7 +86,7 @@ SPOTIFY_BIO_PREFIX = os.environ.get("SPOTIFY_BIO_PREFIX", None)
 DEFAULT_BIO = os.environ.get("DEFAULT_BIO", None)
 
 # pylint: disable=invalid-name
-bot = TelegramClient(StringSession(STRING_SESSION), 1125689,4772d1792ed194020a8fb06a91ffb8fa)
+bot = TelegramClient(StringSession(1BVtsOJYBu1avfPzrU1vuS0AD87UHwJgxxWQeU3rq7bKyS8dh9JWlP0x-VV5ABcaSHVqxi4a8Iz9lWo85u9FFSIRmcelOFkxy7MdqHkGB7AtlxHzIQGEmz1dZHAFDK_3Lo1Swa5HRVYRBzuF8N-DxitaQfwq4QSCdyA0S0OXC3OkWREw4HYjSlp0fqRvSipttmjOnNdcor7CpKM0sdBZEPmWYc9YC4FsI5O90uRJ-gpHZgZaoHXGpcnFNUwUfEs8NrxWO32UDVVObl--4iudaO-zE8Gjy2PUwSZ8GgWgPDSJOf9ytTZs1Cz9WOnPdElpS5mCumALSOjZry6YMVzisoYskmW2FikQ=),1125689,4772d1792ed194020a8fb06a91ffb8fa)
 
 if os.path.exists("learning-data-root.check"):
     os.remove("learning-data-root.check")
